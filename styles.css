@@ -47,6 +47,10 @@ html {
     font-size: 10px;
 }
 
+body {
+    padding-top: 160px;
+}
+
 header {
     position: fixed;
     top: 0;
@@ -117,3 +121,12 @@ header .menu-bar {
     background-color: blue;
 }
 
+.main-contanier {
+    /* margin-top: 160px; */
+}
+
+.main-container section {
+    border: 1px solid black;
+    height: 520px;
+    background-color: green;
+}
