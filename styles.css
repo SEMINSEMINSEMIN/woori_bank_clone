@@ -36,6 +36,7 @@ a {
 
 button {
     background-color: transparent;
+    cursor: pointer;
 }
 
 .ir_wa{
