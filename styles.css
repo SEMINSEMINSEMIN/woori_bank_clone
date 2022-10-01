@@ -1,0 +1,97 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.text-hidden {
+	position: absolute;
+	clip-path: inset(50%);
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+}
+
+html {
+    font-size: 10px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 160px;
+    padding: 0 15px;
+    /* background-color: yellow; */
+}
+
+h1 a {
+    display: inline-block;
+}
+
+.flex-container {
+        /* (기본필수) flex container 생성 */
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+
+        /* [정렬] 교차축 - 가운데 기준 */
+        -webkit-box-align: center;
+        -moz-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+}
+
+header .flex-container {
+        height: 73px;
+
+        /* [정렬] space-between */
+        -webkit-box-pack: justify;
+        -moz-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+}
+
+header .flex-container > div {
+    height: 100%;
+    background-color: red;
+}
+
+header .flex-container .sns {
+    width: 220px;
+    height: 46px;
+    padding-left: 40px;
+    background-color: blue;
+}
