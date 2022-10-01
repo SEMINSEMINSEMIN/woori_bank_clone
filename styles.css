@@ -130,3 +130,8 @@ header .menu-bar {
     height: 520px;
     background-color: green;
 }
+
+footer {
+    height: 266px;
+    background-color: gray;
+}
