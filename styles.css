@@ -38,7 +38,8 @@ button {
     background-color: transparent;
 }
 
-.text-hidden {
+.text-hidden {
+    display: block;
 	position: absolute;
 	clip-path: inset(50%);
 	width: 1px;
@@ -138,8 +139,39 @@ header .flex-container:nth-child(1) > div {
 }
 
 header .flex-container .sns {
-    width: 220px;
+    width: 260px;
     height: 46px;
+    padding-left: 40px;
+    /* [정렬] space-between */
+    -webkit-box-pack: justify;
+    -moz-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.sns a {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.sns .facebook {
+    background-image: url(./images/sns_3.png);
+}
+
+.sns .blog {
+    background-image: url(./images/sns_1.png);
+}
+
+.sns .youtube {
+    background-image: url(./images/sns_2.png);
+}
+
+.sns .instagram {
+    background-image: url(./images/sns_4.png);
 }
 
 header .menu-bar {
