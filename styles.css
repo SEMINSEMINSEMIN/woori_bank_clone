@@ -16,7 +16,7 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+time, mark, audio, video, button {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -32,6 +32,10 @@ li {
 a {
     text-decoration: none;
     color: black;
+}
+
+button {
+    background-color: transparent;
 }
 
 .text-hidden {
@@ -56,7 +60,7 @@ header {
     top: 0;
     width: 100%;
     padding: 0 15px;
-    /* background-color: yellow; */
+    background-color: white;
 }
 
 h1 a {
@@ -85,17 +89,57 @@ header .flex-container:nth-child(1) {
         -moz-justify-content: space-between;
         -ms-flex-pack: justify;
         justify-content: space-between;
-        background-color: aqua;
+}
+
+.logo-text-detail {
+    margin-left: 28px;
 }
 
 header .flex-container:nth-child(1) > div {
     height: 100%;
 }
 
+
+.size-ctrl h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.size-ctrl button {
+    border: 1px solid rgb(223, 223, 223);
+}
+
+.size-ctrl .plus-btn, .size-ctrl .minus-btn {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.size-ctrl .plus-btn {
+    margin-left: 13px;
+    background-image: url(./images/zoomIn.png);
+}
+
+.size-ctrl .minus-btn {
+    margin-left: 4px;
+    background-image: url(./images/zoomOut.png);
+}
+
+.size-ctrl .org-btn {
+    color: #288bcc;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 30px;
+    width: 88px;
+    height: 38px;
+    margin-left: 4px;
+}
+
 header .flex-container .sns {
     width: 220px;
     height: 46px;
-    background-color: red;
 }
 
 header .menu-bar {
@@ -104,28 +148,20 @@ header .menu-bar {
     -moz-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    background-color: aqua;
     height: 60px;
-    background-color: pink;
 }
 
 .menu-bar nav {
     width: 200px;
     height: 100%;
-    background-color: yellow;
 }
 
 .menu-bar .login-n-search {
     width: 200px;
     height: 100%;
-    background-color: blue;
 }
 
-.main-contanier {
-    /* margin-top: 160px; */
-}
-
-.main-container section {
+.main-section {
     border: 1px solid black;
     height: 520px;
     background-color: green;
