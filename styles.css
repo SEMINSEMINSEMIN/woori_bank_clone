@@ -68,8 +68,10 @@ body {
 header {
     position: fixed;
     top: 0;
+    left: 50%;
+    transform: translateX(-50%);
     width: 100%;
-    padding: 0 15px;
+    max-width: 1200px;
     background-color: white;
 }
 
