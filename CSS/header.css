@@ -131,6 +131,9 @@
     font-size: 2.2rem;
     font-weight: 800;
     height: 100%;
+    -webkit-box-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
 }
 
 .main-nav li a {
@@ -207,12 +210,8 @@
         margin-top: 15px;
     }
 
-    .header-1st .size-ctrl {
-        margin-top: 27px;
-    }
-    
-    .header-1st .sns {
-        margin-top: 27px;
+    .header-1st .size-ctrl, .header-1st .sns {
+        display: none;
     }
 
     .main-nav li {
@@ -220,9 +219,8 @@
         font-size: 1.5rem;
         font-weight: normal;
     }
-    
-    .header-2nd .search-btn {
-        width: 20px;
-        height: 20px;
+
+    .header-2nd .login, .header-2nd .search-btn {
+        display: none;
     }
 }
