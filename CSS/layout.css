@@ -39,12 +39,19 @@ header {
 
 .main section {
     padding: 100px 0 100px 0;
+    text-align: center;
 }
 
 .main section h2 {
     font-size: 3.8rem;
     font-weight: 800;
-    text-align: center;
+    
+}
+
+.main .section-desc {
+    font-size: 2.2rem;
+    padding-top: 25px;
+    color: var(--light-gray);
 }
 
 footer {
@@ -62,5 +69,10 @@ footer {
 
     .main section h2 {
         font-size: 2.5rem;
+    }
+
+    .main .section-desc {
+        font-size: 1.4rem;
+        padding-top: 10px;
     }
 }
