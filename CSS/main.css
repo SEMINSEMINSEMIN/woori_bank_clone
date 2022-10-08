@@ -6,6 +6,18 @@
     background-position: center;
 }
 
+.financial-service .layout-financial {
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+.layout-financial .layout-1 {
+    float: left;
+}
+
+.layout-financial .layout-2 {
+    float: right;
+}
 
 @media screen and (max-width: 1024px) {
     .section1 {

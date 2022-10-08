@@ -58,6 +58,12 @@ footer {
     background-color: blueviolet;
 }
 
+@media screen and (max-width:1230px) {
+    .main section {
+        padding: 0 15px 0 15px;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     .main {
         padding-top: 90px; 
