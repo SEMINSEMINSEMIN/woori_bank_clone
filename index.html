@@ -12,7 +12,7 @@
 <body>
     <header>
         <div class="header-1st">
-            <div class="max-width flex-v-center">
+            <div class="max-width flex flex-v-center">
                 <h1>
                     <a class="woori_logo" href="https://www.wooribank.com/" target="_blank">
                         <span class="text-hidden" >
@@ -25,7 +25,7 @@
                         </span>
                     </a>
                 </h1>
-                <article class="size-ctrl flex-v-center">
+                <article class="size-ctrl flex flex-v-center">
                     <h2>화면크기조정</h2>
                     <button type="button" class="plus-btn">
                         <span class="text-hidden">
@@ -41,7 +41,7 @@
                         원본보기
                     </button>
                 </article>
-                <nav class="sns flex-v-center">
+                <nav class="sns flex flex-v-center">
                     <a class="facebook" href="https://www.facebook.com/wooribank" target="_blank">
                         <span class="text-hidden">
                             우리은행 페이스북
@@ -65,24 +65,40 @@
                 </nav>
             </div>
         </div>
-        <div class="header-2nd max-width flex-v-center">
-            <nav>
-                <ul>
-                    <li>금융서비스</li>
-                    <li>관심정보</li>
-                    <li>교육/세미나</li>
-                    <li>건강/여행</li>
+        <div class="header-2nd max-width flex">
+            <nav class="main-nav">
+                <ul class="flex">
+                    <li class="flex flex-v-center">
+                        <a href="https://www.wooriseniorplus.co.kr/kor/financial/index.php">
+                            금융서비스
+                        </a>
+                    </li>
+                    <li class="flex flex-v-center">
+                        <a href="https://www.wooriseniorplus.co.kr/kor/financial/index.php">
+                            관심정보
+                        </a>
+                    </li>
+                    <li class="flex flex-v-center">
+                        <a href="https://www.wooriseniorplus.co.kr/kor/financial/index.php">
+                            교육/세미나
+                        </a>
+                    </li>
+                    <li class="flex flex-v-center">
+                        <a href="https://www.wooriseniorplus.co.kr/kor/financial/index.php">
+                            건강/여행
+                        </a>
+                    </li>
                 </ul>
             </nav>
             <article class="login">
                 <h2 class="text-hidden">로그인 및 회원가입</h2>
                 <p>로그인</p>
-                <p>회원가입</p>
+                <p class="sign-up">회원가입</p>
             </article>
             <button class="search-btn" type="button">
                 <span class="text-hidden">검색</span>
             </button>
-        </div>
+        </div>  
     </header>
     <!-- main 대신 role="main" 쓰기로: 익스플로러 문제 -->
     <div class="main" role="main">

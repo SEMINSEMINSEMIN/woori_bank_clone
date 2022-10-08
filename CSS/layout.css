@@ -2,6 +2,7 @@
     --max-width: 1200px;
     --border: rgb(237, 237, 237);
     --blue: rgb(40, 139, 204);
+    --light-gray: #666;
 }
 
 .max-width {
@@ -9,13 +10,15 @@
     margin: 0 auto;
 }
 
-.flex-v-center {
+.flex {
     /* (기본필수) flex container 생성 */
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
     display: flex;
+}
 
+.flex-v-center {
     /* [정렬] 교차축 - 가운데 기준 */
     -webkit-box-align: center;
     -moz-align-items: center;
@@ -30,6 +33,10 @@ header {
     background-color: pink;
 }
 
+.main {
+    padding-top: 160px; 
+}
+
 .main div {
     background-color: aqua;
     height: 200px;
@@ -37,18 +44,4 @@ header {
 
 footer {
     background-color: blueviolet;
-}
-
-@media screen and (max-width: 1024px) {
-    .header-1st {
-        height: 50px;
-    }
-
-    .header-2nd {
-        height: initial;
-    }
-
-    .header-1st .max-width {
-        height: 45px;
-    }
 }

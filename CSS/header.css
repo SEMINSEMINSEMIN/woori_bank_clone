@@ -39,7 +39,6 @@
     width: 267.242px;
     height: 46px;
     margin-top: 27px;
-    background-color: red;
     margin-left: auto;
 }
 
@@ -91,8 +90,6 @@
     -moz-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between;
-
-    background-color: green;
 }
 
 .sns a {
@@ -125,16 +122,38 @@
     height: 60px;
 }
 
-.header-2nd li {
-    display: inline-block;
+.main-nav ul {
+    height: 100%;
+}
+
+.main-nav li {
+    padding: 0 40px 0 40px;
+    font-size: 2.2rem;
+    font-weight: 800;
+    height: 100%;
+}
+
+.main-nav li a {
+    vertical-align: middle;
+}
+
+.main-nav li:last-child {
+    padding-right: 0;
 }
 
 .header-2nd .login {
+    margin-top: 20px;
     margin-left: auto;
+    font-size: 1.6rem;
+    color: var(--light-gray);
 }
 
-.header-2nd .login p {
+.login p {
     display: inline-block;
+}
+
+.login .sign-up {
+    padding-left: 24px;
 }
 
 .header-2nd .search-btn {
@@ -142,10 +161,24 @@
     height: 27px;
     margin-top: 17px;
     margin-left: 29px;
-    background-color: aquamarine;
+    background-image: url(../images/btn_search_blue_pc.png);
+    background-repeat: no-repeat;
+
 }
 
 @media screen and (max-width: 1024px) {
+    .header-1st {
+        height: 50px;
+    }
+
+    .header-2nd {
+        height: 40px;
+    }
+
+    .header-1st .max-width {
+        height: 45px;
+    }
+
     .header-1st h1 .woori_logo {
         width: 83px;
         height: 20px;
@@ -168,6 +201,12 @@
         margin-top: 27px;
     }
 
+    .main-nav li {
+        padding: 10px 0 10px 0;
+        font-size: 1.5rem;
+        font-weight: normal;
+    }
+    
     .header-2nd .search-btn {
         width: 20px;
         height: 20px;
