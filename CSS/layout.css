@@ -80,4 +80,8 @@ footer {
         font-size: 1.4rem;
         padding-top: 10px;
     }
+
+    .mobile-br {
+        display: block;
+    }
 }
