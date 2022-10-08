@@ -1,6 +1,7 @@
 :root {
     --max-width: 1200px;
     --border: rgb(237, 237, 237);
+    --blue: rgb(40, 139, 204);
 }
 
 .max-width {
