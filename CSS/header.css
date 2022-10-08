@@ -166,6 +166,16 @@
 
 }
 
+@media screen and (max-width:1230px) {
+    .header-1st {
+        padding: 0 15px 0 15px;
+    }
+
+    .header-2nd {
+        padding: 0 15px 0 15px;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     .header-1st {
         height: 50px;
@@ -177,6 +187,10 @@
 
     .header-1st .max-width {
         height: 45px;
+    }
+
+    .header-1st h1 {
+        height: 30px;
     }
 
     .header-1st h1 .woori_logo {
@@ -202,7 +216,7 @@
     }
 
     .main-nav li {
-        padding: 10px 0 10px 0;
+        padding: 10px 30px 10px 0;
         font-size: 1.5rem;
         font-weight: normal;
     }
