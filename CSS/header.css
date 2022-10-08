@@ -20,7 +20,9 @@
     display: inline-block;
     width: 140px;
     height: 34px;
-    background-color: blue;
+    background-image: url(../images/f_logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .header-1st h1 .senior_logo {
@@ -28,7 +30,9 @@
     width: 138px;
     height: 34px;
     margin-left: 28px;
-    background-color: yellow;
+    background-image: url(../images/logo\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .header-1st .size-ctrl {
