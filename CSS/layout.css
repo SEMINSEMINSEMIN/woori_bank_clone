@@ -30,16 +30,15 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: pink;
+    background-color: white;
 }
 
 .main {
     padding-top: 160px; 
 }
 
-.main div {
-    background-color: aqua;
-    height: 200px;
+.main section {
+    padding: 100px 0 100px 0;
 }
 
 footer {
@@ -49,5 +48,9 @@ footer {
 @media screen and (max-width: 1024px) {
     .main {
         padding-top: 90px; 
+    }
+
+    .main section {
+        padding: 40px 0 40px 0;
     }
 }
