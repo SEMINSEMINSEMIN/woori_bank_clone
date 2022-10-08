@@ -1,0 +1,47 @@
+.header-1st {
+    height: 100px;
+    border-bottom: 1px solid var(--border);
+}
+
+.header-1st .max-width {
+    height: 73px;
+}
+
+.header-1st h1 {
+    margin-top: 33px;
+}
+
+.header-1st h1 .woori_logo {
+    display: inline-block;
+    width: 140px;
+    height: 34px;
+    background-color: blue;
+}
+
+.header-1st h1 .senior_logo {
+    display: inline-block;
+    width: 138px;
+    height: 34px;
+    margin-left: 28px;
+    background-color: yellow;
+}
+
+.header-2nd {
+    height: 60px;
+}
+
+@media screen and (max-width: 1024px) {
+    .header-1st h1 .woori_logo {
+        width: 83px;
+        height: 20px;
+    }
+
+    .header-1st h1 .senior_logo {
+        width: 82px;
+        height: 20px;
+    }
+
+    .header-1st h1 {
+        margin-top: 15px;
+    }
+}
