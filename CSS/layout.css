@@ -45,7 +45,6 @@ header {
 .main section h2 {
     font-size: 3.8rem;
     font-weight: 800;
-    
 }
 
 .main .section-desc {
@@ -58,8 +57,8 @@ footer {
     background-color: blueviolet;
 }
 
-@media screen and (max-width:1230px) {
-    .main section {
+@media screen and (max-width: 1230px) {
+    .main section .max-width {
         padding: 0 15px 0 15px;
     }
 }

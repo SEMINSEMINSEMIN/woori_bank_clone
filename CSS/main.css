@@ -13,10 +13,30 @@
 
 .layout-financial .layout-1 {
     float: left;
+    width: 580px;
+    height: 0px;
+    padding-top: calc(280 / 1200 * 100%);
+    background-image: url(../images/retirement.jpeg);
+    background-size: cover;
 }
 
 .layout-financial .layout-2 {
     float: right;
+    width: 580px;
+    height: 0px;
+    padding-top: calc(280 / 1200 * 100%);
+    background-image: url(../images/main_event.jpg);
+    background-size: cover;
+}
+
+@media screen and (max-width:1230px) {
+    .layout-financial .layout-1, .layout-financial .layout-2 {
+        width: calc(565 / 1170 * 100%);
+    }
+
+    .layout-financial img {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 1024px) {
