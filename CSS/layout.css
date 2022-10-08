@@ -9,6 +9,9 @@
 }
 
 header {
+    position: fixed;
+    top: 0;
+    width: 100%;
     background-color: pink;
 }
 
@@ -23,6 +26,7 @@ header {
 
 .main div {
     background-color: aqua;
+    height: 200px;
 }
 
 footer {
