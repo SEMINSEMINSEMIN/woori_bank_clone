@@ -5,6 +5,11 @@
 
 .header-1st .max-width {
     height: 73px;
+    /* [정렬] space-between */
+    /* -webkit-box-pack: justify;
+    -moz-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between; */
 }
 
 .header-1st h1 {
@@ -26,6 +31,22 @@
     background-color: yellow;
 }
 
+.header-1st .size-ctrl {
+    width: 267.242px;
+    height: 46px;
+    margin-top: 27px;
+    background-color: red;
+    margin-left: auto;
+}
+
+.header-1st .sns {
+    width: 220px;      
+    height: 46px;
+    padding-left: 40px;
+    margin-top: 27px;
+    background-color: green;
+}
+
 .header-2nd {
     height: 60px;
 }
@@ -43,5 +64,13 @@
 
     .header-1st h1 {
         margin-top: 15px;
+    }
+
+    .header-1st .size-ctrl {
+        margin-top: 27px;
+    }
+    
+    .header-1st .sns {
+        margin-top: 27px;
     }
 }
