@@ -45,3 +45,9 @@ header {
 footer {
     background-color: blueviolet;
 }
+
+@media screen and (max-width: 1024px) {
+    .main {
+        padding-top: 90px; 
+    }
+}

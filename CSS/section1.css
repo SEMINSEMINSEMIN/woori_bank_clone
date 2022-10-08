@@ -1,0 +1,24 @@
+.section1 {
+    display: block;
+    height: 520px;
+    background-image: url(../images/section1-bg.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .section1 {
+        height: auto;
+        background-image: none;
+    }
+
+    .section1 img {
+        position: static;
+        clip-path: initial;
+        width: 100%;
+        height: auto;
+        margin: 0;
+        overflow: initial;
+    }
+}
