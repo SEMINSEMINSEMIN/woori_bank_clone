@@ -51,6 +51,26 @@
     height: 60px;
 }
 
+.header-2nd li {
+    display: inline-block;
+}
+
+.header-2nd .login {
+    margin-left: auto;
+}
+
+.header-2nd .login p {
+    display: inline-block;
+}
+
+.header-2nd .search-btn {
+    width: 26px;
+    height: 27px;
+    margin-top: 17px;
+    margin-left: 29px;
+    background-color: aquamarine;
+}
+
 @media screen and (max-width: 1024px) {
     .header-1st h1 .woori_logo {
         width: 83px;
@@ -72,5 +92,10 @@
     
     .header-1st .sns {
         margin-top: 27px;
+    }
+
+    .header-2nd .search-btn {
+        width: 20px;
+        height: 20px;
     }
 }
