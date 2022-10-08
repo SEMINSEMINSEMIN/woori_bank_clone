@@ -81,11 +81,44 @@
 }
 
 .header-1st .sns {
-    width: 220px;      
+    width: 260px;      
     height: 46px;
     padding-left: 40px;
     margin-top: 27px;
+
+    /* [정렬] space-between */
+    -webkit-box-pack: justify;
+    -moz-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+
     background-color: green;
+}
+
+.sns a {
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.sns .facebook {
+    background-image: url(../images/sns_3.png);
+}
+
+.sns .blog {
+    background-image: url(../images/sns_1.png);
+}
+
+.sns .youtube {
+    background-image: url(../images/sns_2.png);
+}
+
+.sns .instagram {
+    background-image: url(../images/sns_4.png);
 }
 
 .header-2nd {
