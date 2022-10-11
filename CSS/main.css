@@ -32,6 +32,10 @@
     background-size: cover;
 }
 
+.interesting-info {
+    background-color: rgb(249, 249, 249);
+}
+
 @media screen and (max-width:1230px) {
     .layout-financial .layout-1, .layout-financial .layout-2 {
         width: calc(565 / 1170 * 100%);
