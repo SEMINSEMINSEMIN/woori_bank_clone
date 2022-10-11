@@ -36,6 +36,23 @@
     background-color: rgb(249, 249, 249);
 }
 
+.interesting-info .int-left {
+    -webkit-box-flex: 0 0 383.993px;
+    -ms-flex: 0 0 383.993px;
+    flex: 0 0 383.993px;
+}
+
+.interesting-info .int-right {
+    -webkit-box-flex: 1 0 auto;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    background-color: red;
+}
+
+.int-left figure, .int-left figure img {
+    width: 100%;
+}
+
 @media screen and (max-width:1230px) {
     .layout-financial .layout-1, .layout-financial .layout-2 {
         width: calc(565 / 1170 * 100%);
